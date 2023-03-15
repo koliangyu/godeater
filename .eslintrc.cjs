@@ -13,5 +13,7 @@ module.exports = {
   },
   rules: {
     'vue/multi-word-component-names': 0,
+    'vue/require-v-for-key': 0,
+    'no-irregular-whitespace': 0,
   }
 }

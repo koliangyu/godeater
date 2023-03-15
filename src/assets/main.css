@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    @apply text-[62.5%];
+  }
+  a {
+    @apply no-underline outline-none visited:text-[#efefef] hover:text-[#efefef];
+  }
+  footer {
+    @apply relative bg-black border-t border-solid border-[#383838] w-full;
+  }
+}
