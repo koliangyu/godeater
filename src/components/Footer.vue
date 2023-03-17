@@ -38,7 +38,7 @@ const { share, bnr } = storeToRefs(store)
         <li
           v-for="item in bnr"
           class="w-[48%] mx-0 my-[2%] md:w-[186px] md:h-auto md:mx-[6px] md:my-[15px] md:duration-200">
-          <a :href="item.href" class="md:duration-200" target="_blank">
+          <a :href="item.href" class="md:duration-200 md:hover:opacity-60" target="_blank">
             <img :src="item.imgUrl" :alt="item.name" />
           </a>
         </li>
