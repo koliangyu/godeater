@@ -7,7 +7,7 @@ const { share, bnr } = storeToRefs(store)
 </script>
 
 <template>
-  <footer>
+  <footer id="footer">
     <div class="md:relative md:w-[1200px] md:mx-auto md:my-0 md:flex md:justify-between">
       <ul
         class="border-b border-solid border-[#383838] flex justify-center px-0 py-[2%] text-center md:border-none md:justify-start md:whitespace-nowrap">
